@@ -37,6 +37,16 @@ h4 {
   padding-right: 5%;
   display: inline-block;
   color: #fff;
+  width: 15%;
+}
+
+.destination {
+  width: 50%;
+}
+
+.frequency {
+  position: absolute;
+  margin-right: 5%;
 }
 
 h3 {
@@ -81,9 +91,11 @@ h7 {
 .status-bar {
   height: 24px;
   background-color: #02414f;
+  display: inline-block;
 }
 
 .status-icons {
+  display: inline-block;
   float: right;
   background-color: #02414f;
 }
@@ -116,6 +128,21 @@ h7 {
   color: #b30000;
 }
 
-.bus-entry-out h3, h5, h6 {
- color: #737373;
+.bus-entry-out {
+  border-bottom: 1px solid #e0e0e0;
+  color: #737373;
+}
+
+.bus-entry-out h7 {
+  color: #000;
+}
+
+footer {
+  background-color: #000;
+}
+
+.nav-buttons {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
